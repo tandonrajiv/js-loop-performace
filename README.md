@@ -6,6 +6,7 @@ Writing short code is very important and well explanatory.
 
 
 1) When using switch case
+```javascript
 let myvariable = '';
 passed  = 'b';
 switch ( passed ) {
@@ -20,7 +21,7 @@ switch ( passed ) {
     break;
 }
 console.log(foo);
-
+```
 2) When using if else
 let passed = '';
 if ( passed === 'a' )

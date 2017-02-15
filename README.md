@@ -5,7 +5,7 @@ This is a demo show you how you can increase performance of js application.
 Writing short code is very important and well explanatory.
 
 
-1) /*When using switch case*/
+1) When using switch case
 let myvariable = '';
 passed  = 'b';
 switch ( passed ) {
@@ -21,7 +21,7 @@ switch ( passed ) {
 }
 console.log(foo);
 
-2) /*When using if else*/
+2) When using if else
 let passed = '';
 if ( passed === 'a' )
     myvariable = 1;

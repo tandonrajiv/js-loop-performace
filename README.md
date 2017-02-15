@@ -23,6 +23,7 @@ switch ( passed ) {
 console.log(foo);
 ```
 2) When using if else
+```javascript
 let passed = '';
 if ( passed === 'a' )
     myvariable = 1;
@@ -30,12 +31,12 @@ else if ( passed === 'b' )
     myvariable = 2;
 else
     myvariable = 3;
-
+```
 3) For n numbers of condition ternary is not right and also confusing 
 
 
 Then Solution is objectLiteral
-
+```javascript
 let myvariable = ( {
     a: 1,
     b: 2,
@@ -48,7 +49,7 @@ let myvariable = {
     b: 2,
 };
 let foo = values[ 'passed' ] || 3;
-
+```
 Performance are high to low.
 
 a) Switch and objectLiteral around same

@@ -52,6 +52,6 @@ let foo = values[ 'passed' ] || 3;
 ```
 Performance are high to low.
 
-a) Switch and objectLiteral around same
-b) ifelse
+a) Switch and objectLiteral around same(high)
+b) ifelse(low)
 

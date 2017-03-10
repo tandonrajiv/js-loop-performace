@@ -3,7 +3,7 @@ var value = function value() {
     return [ 'a', 'b', 'c' ][ Math.floor( Math.random() * 3 ) ];
 };
 
-console.time( 'switch' );
+//console.time( 'switch' );
 var a1 = [];
 for ( var i = 1; i < 1000; i++ ) {
     switch ( value() ) {
